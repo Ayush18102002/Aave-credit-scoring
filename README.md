@@ -25,3 +25,27 @@ This project builds a credit score system (0–1000) for wallets interacting wit
 ## 📁 Outputs
 - `outputs/scores.csv`: Wallet-level scores
 - `outputs/score_distribution.png`: Score distribution plot
+
+
+
+#### file structure 
+aave-credit-scoring/
+│
+├── data/
+│   ├── user_transactions.json  
+│
+│
+├── src/
+│   ├── process_data.py
+│   ├── feature_generator.py
+│   ├── model.py
+│  
+│
+├── outputs/
+│   ├── scores.csv
+│   ├── score_distribution.png
+│
+├── README.md
+├── analysis.md
+├── requirements.txt
+└── main.py  
